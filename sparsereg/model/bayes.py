@@ -3,7 +3,7 @@ import warnings
 import numpy as np
 from sklearn.base import RegressorMixin
 from sklearn.exceptions import ConvergenceWarning
-from sklearn.linear_model.base import LinearModel
+from sklearn.linear_model._base import LinearModel
 from sklearn.utils.validation import check_X_y
 
 from sparsereg.model.base import PrintMixin

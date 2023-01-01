@@ -3,7 +3,7 @@ from operator import attrgetter
 
 import numpy as np
 from sklearn.exceptions import FitFailedWarning
-from sklearn.linear_model.base import LinearModel
+from sklearn.linear_model._base import LinearModel
 
 
 def dominates(a, b):

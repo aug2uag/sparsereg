@@ -1,5 +1,5 @@
 from sklearn.base import RegressorMixin
-from sklearn.linear_model.base import LinearModel, _rescale_data
+from sklearn.linear_model._base import LinearModel, _rescale_data
 from sklearn.utils.validation import check_X_y
 
 

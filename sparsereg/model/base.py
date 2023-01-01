@@ -7,8 +7,8 @@ from sklearn.exceptions import ConvergenceWarning
 from sklearn.exceptions import FitFailedWarning
 from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import ridge_regression
-from sklearn.linear_model.base import _rescale_data
-from sklearn.linear_model.base import LinearModel
+from sklearn.linear_model._base import _rescale_data
+from sklearn.linear_model._base import LinearModel
 from sklearn.utils.validation import check_array
 from sklearn.utils.validation import check_is_fitted
 from sklearn.utils.validation import check_X_y
