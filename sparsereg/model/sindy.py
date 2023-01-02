@@ -47,6 +47,7 @@ class SINDy(BaseEstimator):
         self.threshold = threshold
         self.degree = degree
         self.operators = operators
+        self.dt = dt
         self.n_jobs = n_jobs
         self.derivative = derivative or FunctionTransformer(func=_derivative, kw_args={"dt": dt})
         self.feature_names = feature_names
